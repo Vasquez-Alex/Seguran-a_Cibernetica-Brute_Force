@@ -20,4 +20,15 @@ senhas_spray.txt   -> password/n123456/nwelcome123/nmsfadmin/etc...
 
       # Tentativa de Ataque web, 
   1 - primeiro indentificamos as areas de acesso e parametros que o formulario utiliza, apos a conexão realizada.
-  2 - 
+  2 - logo em seguida usamos os codigos com medusa para fazer as tentativas com as wordlist
+  3 - apos acerto e sucesso, basta acessar o formulario com usuario e senha admin
+
+      # Ataque ao ambiente corporativo mal configurado
+  1 - começamos com p codigo de realizar todos os testes de enumeração no IP e salvar em um documento .txt
+  2 - logo apos podemos observar todos os dados coletados
+  3 - agora criamos as wordlist,logo a seguir utilizar medusa para realizar multiplas tentativas no modulo especifico SMB
+  4 - acessar o smb client com o login e senha adquiridos com o ataque.
+
+
+          # O que é muito importante?
+  Aprendi a importancia sobre possui mais cuidados com nossas credenciais e como é fragil nossa segurança, o mais importante é ser sempre precavido e buscar conhecer melhor seus colegas para evitar dados vazados atraves de engenharia social e dados privilegiados, manter uma troca de senhas, não repetir senhas e como conseguir realizar testes de segurança em auditorias atraves de contratos.
